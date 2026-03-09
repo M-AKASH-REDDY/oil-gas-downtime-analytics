@@ -1,0 +1,14 @@
+pandas==2.1.4
+numpy==1.26.4
+python-dotenv==1.0.1
+kafka-python==2.0.2
+pyspark==3.5.3
+pyarrow==17.0.0
+great-expectations==1.2.4
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.10
+streamlit==1.40.1
+fastapi==0.115.5
+uvicorn==0.32.1
+pytest==8.3.3
+ruff==0.7.2

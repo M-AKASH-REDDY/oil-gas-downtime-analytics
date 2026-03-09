@@ -1,0 +1,14 @@
+suite_name: silver_expectations
+expectations:
+  - type: expect_column_values_to_not_be_null
+    kwargs:
+      column: asset_id
+  - type: expect_compound_columns_to_be_unique
+    kwargs:
+      column_list: [asset_id, event_ts]
+  - type: expect_column_values_to_be_between
+    kwargs:
+      column: event_ts_epoch
+      min_value: 1704067200
+      max_value: 1924992000
+

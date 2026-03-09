@@ -1,0 +1,11 @@
+suite_name: gold_expectations
+expectations:
+  - type: expect_column_values_to_not_be_null
+    kwargs:
+      column: asset_id
+  - type: expect_column_values_to_be_between
+    kwargs:
+      column: availability_pct
+      min_value: 0
+      max_value: 100
+

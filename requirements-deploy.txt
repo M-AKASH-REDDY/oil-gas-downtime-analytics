@@ -1,0 +1,9 @@
+pandas==2.1.4
+numpy==1.26.4
+python-dotenv==1.0.1
+pyarrow==17.0.0
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.10
+streamlit==1.40.1
+fastapi==0.115.5
+uvicorn==0.32.1

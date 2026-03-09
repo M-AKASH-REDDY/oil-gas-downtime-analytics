@@ -1,0 +1,4 @@
+asset_id,event_date,mtbf_minutes,mttr_minutes,downtime_minutes,availability_pct,production_loss_bbl,repair_count,failure_count,total_events
+ASSET_001,2026-02-15,1320.0,60.0,120,91.67,200.0,2,1,720
+ASSET_002,2026-02-15,1260.0,90.0,180,87.5,210.0,2,1,720
+

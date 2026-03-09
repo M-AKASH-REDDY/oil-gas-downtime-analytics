@@ -1,0 +1,13 @@
+flowchart TD
+    A[Telemetry Generator] --> B[Kafka Topic: telemetry]
+    B --> C[Spark Structured Streaming]
+    C --> D[Bronze Parquet Layer]
+    D --> E[Silver Parquet Layer]
+    E --> F[Batch KPI Compute]
+    G[Maintenance Work Orders] --> F
+    H[Failure Events] --> F
+    F --> I[Gold Parquet Layer]
+    I --> J[Data Quality Checks]
+    J --> K[Postgres: kpis_by_asset_day]
+    K --> L[FastAPI]
+    L --> M[Streamlit Dashboard]
