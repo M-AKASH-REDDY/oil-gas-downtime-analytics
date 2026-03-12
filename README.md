@@ -35,6 +35,29 @@ flowchart TD
 - Great Expectations-compatible DQ + deterministic pandas checks
 - Pytest + Ruff + GitHub Actions
 
+## Screenshots
+
+### API Health Endpoint
+![Health](docs/screenshots/01-health.png)
+
+### API Documentation
+![API Docs](docs/screenshots/02-api-docs.png)
+
+### Streamlit Dashboard
+![Dashboard](docs/screenshots/03-dashboard.png)
+
+### Docker Services Running
+![Docker](docs/screenshots/04-docker-services.png)
+
+### Project Structure
+![Structure](docs/screenshots/05-project-structure.png)
+
+### Additional Project Structure
+![Structure](docs/screenshots/06-project-structure.png)
+
+### API JSON Output
+![JSON](docs/screenshots/07-JSON output.png)
+
 ## API Endpoints
 - `GET /health`
 - `GET /kpis`
