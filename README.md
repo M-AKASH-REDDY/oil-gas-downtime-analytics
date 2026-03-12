@@ -56,7 +56,7 @@ flowchart TD
 ![Structure](docs/screenshots/06-project-structure.png)
 
 ### API JSON Output
-![JSON](docs/screenshots/07-JSON output.png)
+![JSON](docs/screenshots/07-json-output.png)
 
 ## API Endpoints
 - `GET /health`
