@@ -107,4 +107,4 @@ src/                     # Shared config/logging
 ![Project Structure 2](docs/screenshots/06-project-structure.png)
 
 ### API JSON Output
-![JSON Output](docs/screenshots/07-JSON output.png)
+![JSON Output](docs/screenshots/07-json-output.png)
